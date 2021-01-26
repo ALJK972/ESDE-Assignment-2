@@ -3,8 +3,8 @@ const express=require('express');
 const serveStatic=require('serve-static');
 
 
-var hostname="localhost";
-var port=3001;
+var hostname="ec2-3-83-68-225.compute-1.amazonaws.com";
+var port=80;
 
 
 var app=express();
